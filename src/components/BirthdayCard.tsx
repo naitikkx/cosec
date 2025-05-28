@@ -79,7 +79,7 @@ export default function BirthdayCard() {
             <AnimatedCandles count={7} />
            </div>
           <h1 className="text-5xl font-bold text-primary drop-shadow-md mt-8 font-['Pacifico',_cursive]">
-            Happy Birthday Kaushik!
+            Happy Birthday Ankit!
           </h1>
            <div className="absolute top-4 right-4"> <PartyPopper className="text-accent animate-pulse"/> </div>
             <div className="absolute top-4 left-4"> <CakeSlice className="text-pink-400 animate-pulse delay-2"/> </div>
@@ -98,7 +98,7 @@ export default function BirthdayCard() {
                 data-ai-hint="thank you photo" 
               />
               <p className="mt-4 text-xl font-semibold text-primary animate-pulse">
-                Thankyou mala🥳🫂❤️
+                Thankyou🥳🫂❤️
               </p>
             </div>
           ) : (
