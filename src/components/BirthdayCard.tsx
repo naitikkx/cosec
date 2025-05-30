@@ -85,7 +85,9 @@ export default function BirthdayCard() {
             <div className="absolute top-4 left-4"> <CakeSlice className="text-pink-400 animate-pulse delay-2"/> </div>
         </CardHeader>
         <CardContent ref={cardRef} className="relative py-10 min-h-[300px] md:min-h-[400px]"> {/* Adjusted min-height for image */}
-          <p className="text-xl font-semibold text-secondary-foreground mb-6">Party kab de rha hai?</p>
+          <p className="text-xl font-semibold text-secondary-foreground mb-6">
+            When's the party?
+            </p>
 
           {showThankYouImage ? (
             <div className="mt-6 flex flex-col items-center">
