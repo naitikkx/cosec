@@ -49,7 +49,7 @@ export default function BirthdayCard() {
   const handleSecondButtonClick = () => {
     toast({
       title: "🎉 Done! 🎉",
-      description: "₹500 bhej diye! Enjoy your treat! 😉",
+      description: "sent $5! Enjoy your treat! 😉",
       duration: 5000, // Keep toast longer
     });
     setShowThankYouImage(true); // Show the image and caption
@@ -79,7 +79,7 @@ export default function BirthdayCard() {
             <AnimatedCandles count={7} />
            </div>
           <h1 className="text-5xl font-bold text-primary drop-shadow-md mt-8 font-['Pacifico',_cursive]">
-            Happy Birthday Ankit!
+            Happy Birthday Naruto!
           </h1>
            <div className="absolute top-4 right-4"> <PartyPopper className="text-accent animate-pulse"/> </div>
             <div className="absolute top-4 left-4"> <CakeSlice className="text-pink-400 animate-pulse delay-2"/> </div>
@@ -98,7 +98,7 @@ export default function BirthdayCard() {
                 data-ai-hint="thank you photo" 
               />
               <p className="mt-4 text-xl font-semibold text-primary animate-pulse">
-                Thankyou🥳🫂❤️
+                Thankyou bro🥳🫂❤️
               </p>
             </div>
           ) : (
@@ -117,7 +117,7 @@ export default function BirthdayCard() {
                   onMouseEnter={handleMouseEnter}
                   // onClick={handleMouseEnter} // Optional: For touch devices
                 >
-                  Jab milenge tab
+                  When we meet
                 </Button>
               )}
 
@@ -127,7 +127,7 @@ export default function BirthdayCard() {
                 style={{ zIndex: 10 }} // Ensure it's below the moving button if they overlap
                 onClick={handleSecondButtonClick}
               >
-                ₹500 bhej re h, jo man khaa le
+                sending $5, get yourself something
               </Button>
             </div>
           )}
