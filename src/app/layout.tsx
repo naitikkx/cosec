@@ -7,8 +7,8 @@ import { Toaster } from '@/components/ui/toaster'; // Import Toaster
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Ankit's's Bday Surprise",
-  description: 'Happy Birthday Ankit!',
+  title: "Naruto's Bday Surprise",
+  description: 'Happy Birthday Naruto!',
 };
 
 export default function RootLayout({
